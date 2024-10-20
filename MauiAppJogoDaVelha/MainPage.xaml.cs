@@ -26,9 +26,9 @@
             }
 
             /* Verificando se o X ganhou na 1ª linha */
-            if (btn10.Text == "X" && btn11.Text == "X" && btn12.Text == "X")
+            if (CheckWinner("X"))
             {
-                DisplayAlert("Parabéns!", "O X ganhou!", "OK");
+                DisplayAlert("Parabéns!", "O 'X' ganhou!", "OK");
                 Zerar();
             }
         } // Fecha método
